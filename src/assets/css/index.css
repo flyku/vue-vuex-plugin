@@ -1,0 +1,29 @@
+.tab{
+    font-size:30px;
+    color: #f00;
+}
+.tab1{
+    font-size: 20px;
+    color: #000;
+}
+.main{
+    float: left;
+    width: 600px;
+}
+.ul1{
+    float: left;
+    font-size: 20px;
+    line-height: 60px;
+    width: 100%;
+    height: 60px;
+}
+.ul2{
+    float: left;
+    width: 600px;
+    height: 60px;
+}
+li{
+    float: left;
+    width: 24%;
+    height: 60px;
+}
