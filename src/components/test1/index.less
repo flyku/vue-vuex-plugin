@@ -1,0 +1,39 @@
+@headertop : 72px;
+.indexPage{ 
+    height: auto;
+    .index_logo{
+       display: inline;
+    }
+    header{
+        background: white;
+        width: 1200px;
+        height:@headertop;
+        margin: auto;
+        .el-menu-demo{
+            position: relative;
+            top: 10%;
+            float: right;
+        }
+    }
+    .indexMain_Index{
+        width: 100%;
+        height:  calc(~"100% - @{headertop}");
+        overflow: hidden;
+        .hideBar{
+            width: 101%;
+            height: 100%;
+            overflow-y: scroll;
+						footer{
+								height: 80px;
+								background: rgb(45,53,56);
+								.version_Us{
+									padding-left:30px;
+									line-height:90px;
+									font-size:14px;
+									color:white;
+								}
+						}
+        }
+    }
+		
+}

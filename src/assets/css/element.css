@@ -1,0 +1,13 @@
+.successfulCase .el-card__body {
+    padding:0;
+   
+}
+.successfulCase  .el-card{
+    border: none;
+}
+.el-menu-item:hover{
+    background: white !important;
+}
+.el-menu-demo .is-active{
+	background: white !important;
+}
